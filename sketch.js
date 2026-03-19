@@ -60,7 +60,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1000, 700);
+  var myCanvas = createCanvas(1000, 700);
+  myCanvas.parent("mySketch");
   textFont("Winky Rough");
   textAlign(CENTER, CENTER);
   rectMode(CORNER);
